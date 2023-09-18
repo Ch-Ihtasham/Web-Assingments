@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    font-size: 36px;
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding: 12px 0px;
+    transition: 0.5s;
+
+
+}
+
+.active {
+    background-color: #04AA6D;
+
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.bar2 {
+    width: 90px;
+    background-color: #555;
+
+
+}
+
+.green {
+    background-color: #04AA6D;
+
+}
+
+.bar2 a {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+
+}
+.bar2 a:hover {
+    background-color: #000;
+}
