@@ -3,7 +3,7 @@ import React from 'react'
 export default function FoodItems() {
   return (
     < >
-   <div className=' grid grid-cols-4 justify-center items-center mt-10'>
+   <div className=' grid lg:grid-cols-4 md:grid-cols-2 justify-center items-center mt-10'>
    <div className=' text-center flex justify-center items-center flex-col' >
         <img className=' h-54 rounded-full ' src="./food1.jpg" alt="" />
         <div className='font-bold mt-4'>Choose Your Favorite</div>
