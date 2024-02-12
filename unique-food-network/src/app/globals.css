@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.img {
+    position: relative;
+    height: 100%;
+ 
+
+}
+
+.img::before {
+    position: absolute;
+    right: -55%;
+    /* top: -50%; */
+    content: "";
+    width: 100%;
+    height: 200%;
+    background-color: #E9F0F4;
+    clip-path: circle(50% at 0 50%);
+    transform: translateY(0px);
+}
